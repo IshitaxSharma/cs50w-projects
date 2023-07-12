@@ -77,3 +77,15 @@ pip install -r requirements.txt
 ```
 py manage.py makemigrations
 py manage.py migrate
+py manage.py createsuperuser
+```
+
+4. Launch the Django server. If set up correctly, server will launch on http://127.0.0.1:8000/.
+
+```
+py manange.py runserver
+```
+
+#### Preview
+
+![Preview](preview.gif)
